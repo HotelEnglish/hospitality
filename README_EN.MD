@@ -1,3 +1,9 @@
+<div class="language-switcher">
+  <a href="#" onclick="switchLanguage('en')">English</a> | 
+  <a href="README.md" onclick="switchLanguage('zh')">中文</a>
+</div>
+
+
 # Hotel Management Resources
 
 ## Introduction
