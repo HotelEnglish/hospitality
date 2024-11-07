@@ -3,18 +3,6 @@
   <a href="#" onclick="switchLanguage('zh')">中文</a>
 </div>
 
-<!-- 中文版 README.md 内容 -->
-
-<script>
-function switchLanguage(lang) {
-  // 根据lang参数切换到对应的英文或中文页面
-  if (lang === 'en') {
-    window.location.href = '#'
-  } else if (lang === 'zh') {
-    window.location.href = '#'
-  }
-}
-</script>
 # 酒店管理资源
 
 ## 简介
