@@ -9,7 +9,7 @@
 function switchLanguage(lang) {
   // 根据lang参数切换到对应的英文或中文页面
   if (lang === 'en') {
-    window.location.href = '#'
+    window.location.href = 'README_EN.MD'
   } else if (lang === 'zh') {
     window.location.href = '#'
   }
