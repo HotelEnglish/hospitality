@@ -1,5 +1,5 @@
 <div class="language-switcher">
-  <a href="#" onclick="switchLanguage('en')">English</a> | 
+  <a href="README_EN.MD" onclick="switchLanguage('en')">English</a> | 
   <a href="#" onclick="switchLanguage('zh')">中文</a>
 </div>
 
@@ -9,7 +9,7 @@
 function switchLanguage(lang) {
   // 根据lang参数切换到对应的英文或中文页面
   if (lang === 'en') {
-    window.location.href = 'README_EN.MD'
+    window.location.href = '#'
   } else if (lang === 'zh') {
     window.location.href = '#'
   }
